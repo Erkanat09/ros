@@ -16,7 +16,7 @@ final darkTheme = ThemeData(
   ),
   listTileTheme: const ListTileThemeData(iconColor: Colors.white),
   textTheme: TextTheme(
-    bodyMedium: const TextStyle( // Заменил bodyMedium на bodyText2
+    bodyMedium: const TextStyle( 
       color: Colors.white,
       fontWeight: FontWeight.w500,
       fontSize: 20,
@@ -34,8 +34,8 @@ final darkTheme = ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(Colors.yellow), // Заменено primary на backgroundColor
-      foregroundColor: MaterialStateProperty.all(Colors.white), // Установка цвета текста
+      backgroundColor: MaterialStateProperty.all(Colors.yellow), // Заменено primary на backgroundColr
+      foregroundColor: MaterialStateProperty.all(Colors.white), // Установка цвета текстаа
       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))),
     ),
   ),
